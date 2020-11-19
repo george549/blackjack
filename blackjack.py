@@ -40,6 +40,7 @@ def welcome():
                 explain_game()
             else:
                 play_game()
+                break
 
 
 def explain_game():
