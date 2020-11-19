@@ -32,6 +32,7 @@ def welcome():
 
         if age < 18:
             print('\nSorry, you are too young to play this game.')
+            break
         else:
             prompt = '\nDo you know the rules of blackjack? (Y/N) '
             yes_no = input(prompt)
